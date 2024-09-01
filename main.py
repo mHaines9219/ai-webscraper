@@ -6,6 +6,7 @@ from scrape import (
     split_dom_content,
 )
 
+from parse import parse_with_llama3
 
 st.title("AI Web Scraper")
 
@@ -30,3 +31,5 @@ if "dom_content" in st.session_state:
             st.write("Parsing content")
 
             dom_chunks = split_dom_content(st.session_state.dom_content)
+            result = parse_with_llama3(dom_chunks, parse_description)
+            st.write(result)
