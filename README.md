@@ -85,6 +85,10 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 Contributions are welcome! Please feel free to submit a pull request or open an issue if you have any ideas or improvements.
 
+## Credit Inspiration
+
+Inspired to do the project and build off the work of Tech With Tim on youtube.
+
 ## Contact
 
 For any questions or feedback, please reach out to [mhaines9219@gmail.com](mailto:mhaines9219@gmail.com).
